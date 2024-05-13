@@ -1,5 +1,5 @@
 <script>
-    import AppHeader from './components/AppHeader.vue';
+import AppHeader from './components/AppHeader.vue';
 import { store } from './store.js';
 import AppLimitedOffer from './components/AppLimitedOffer.vue';
 import CardProduct from './components/CardProduct.vue'
@@ -36,9 +36,13 @@ export default {
     <header>
         <AppHeader></AppHeader>
     </header>
-  <AppLimitedOffer></AppLimitedOffer>
-  <CardProduct></CardProduct>
-<DiscoverProduct></DiscoverProduct><AppLimitedOffer></AppLimitedOffer>
+    <main>
+      <AppLimitedOffer></AppLimitedOffer>
+      <CardProduct></CardProduct>
+      <DiscoverProduct></DiscoverProduct>
+    </main>
+  
+
 </template>
 
 <style lang="scss" >
