@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-  
+  <AppLimitedOffer></AppLimitedOffer>
 </template>
 
 <style>
