@@ -29,7 +29,8 @@ export default {
 </script>
 
 <template>
-<DiscoverProduct></DiscoverProduct><AppLimitedOffer></AppLimitedOffer>
+<DiscoverProduct></DiscoverProduct>
+<AppLimitedOffer></AppLimitedOffer>
 </template>
 
 <style lang="scss" >
