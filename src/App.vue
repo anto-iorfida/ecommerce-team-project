@@ -7,7 +7,7 @@ import DiscoverProduct from './components/DiscoverProduct.vue';
 export default {
   components: {
     AppLimitedOffer,
-    CardProduct
+    CardProduct,
     DiscoverProduct,
 
   },
