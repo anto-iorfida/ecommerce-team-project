@@ -1,12 +1,12 @@
 <script>
 import { store } from './store.js';
 import AppLimitedOffer from './components/AppLimitedOffer.vue';
-import CardProduct from './components/CardProduct.vue';
+import CardProduct from './components/CardProduct.vue'
 
 export default {
   components: {
     AppLimitedOffer,
-    CardProduct,
+    CardProduct
   },
 
   data() {
