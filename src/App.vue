@@ -1,15 +1,35 @@
 <script>
-  import DiscoverProduct from './components/DiscoverProduct.vue';
- 
-  export default {
-    components: {
-      DiscoverProduct,
-    }
+import { store } from './store.js';
+import AppLimitedOffer from './components/AppLimitedOffer.vue';
+import DiscoverProduct from './components/DiscoverProduct.vue';
+
+export default {
+  components: {
+    AppLimitedOffer,
+    DiscoverProduct,
+
+  },
+
+  data() {
+    return {
+      store
+    };
+  },
+  
+  methods: {
+   
+  },
+  mounted() {
+   
   }
+}
+
+ 
+
 </script>
 
 <template>
-<DiscoverProduct></DiscoverProduct>
+<DiscoverProduct></DiscoverProduct><AppLimitedOffer></AppLimitedOffer>
 </template>
 
 <style lang="scss" >
