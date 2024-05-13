@@ -2,8 +2,8 @@
     import AppHeader from './components/AppHeader.vue';
 import { store } from './store.js';
 import AppLimitedOffer from './components/AppLimitedOffer.vue';
+import CardProduct from './components/CardProduct.vue'
 import DiscoverProduct from './components/DiscoverProduct.vue';
-import CardProduct from './components/CardProduct.vue';
 
 export default {
   components: {
