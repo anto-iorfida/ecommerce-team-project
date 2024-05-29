@@ -17,34 +17,24 @@ export default {
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <div class="row">
-                                <div class="col-2">ciao</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
                             <div class="row">
-                                <div class="col-2">ciao</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
+                                <div class="col-2"><div class="container-product">ciao</div></div>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-2">ciao</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                                <div class="col-2">proa</div>
-                            </div>
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev btn-carousel" type="button" data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev">
@@ -71,5 +61,17 @@ export default {
     height: 50px;
     width: 50px;
 }
+
+
+.container-product{
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/05/sole-colore.jpg);
+    background-size: cover;
+}
+
 
 </style>

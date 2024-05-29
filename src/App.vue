@@ -37,9 +37,9 @@ export default {
         <AppHeader></AppHeader>
     </header>
     <main>
+      <DiscoverProduct></DiscoverProduct>
       <AppLimitedOffer></AppLimitedOffer>
       <CardProduct></CardProduct>
-      <DiscoverProduct></DiscoverProduct>
     </main>
   
 
